@@ -1,0 +1,44 @@
+{
+	"name": " SoloCSS",
+	"version": "0.1.0",
+	"title": "SoloCSS",
+	"description": "Rubber CSS framework",
+	"licenses": "MIT",
+	"homepage": "https://github.com/SoloCSS/SoloCSS",
+	"keywords": [
+		"css",
+		"html",
+		"stylus",
+		"framework",
+		"grid system",
+		"rubber",
+		"front-end"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/SoloCSS/SoloCSS"
+	},
+	"bugs": "https://github.com/SoloCSS/SoloCSS/issues",
+	"engines": {
+		"node": ">= 0.8.0"
+	},
+	"devDependencies": {
+		"grunt": "latest",
+		"grunt-confirm": "latest",
+		"grunt-contrib-compress": "latest",
+		"grunt-contrib-concat": "latest",
+		"grunt-contrib-csslint": "latest",
+		"grunt-contrib-cssmin": "latest",
+		"grunt-contrib-jshint": "latest",
+		"grunt-contrib-stylus": "latest",
+		"grunt-contrib-uglify": "latest",
+		"grunt-contrib-watch": "latest"
+	},
+	"peerDependencies": {
+		"grunt": "~0.4.5"
+	},
+	"author": {
+		"name": "solovets",
+		"url": "https://github.com/solovets"
+	}
+}
