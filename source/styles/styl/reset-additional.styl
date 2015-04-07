@@ -1,0 +1,85 @@
+*
+*:before
+*:after
+    box-sizing(border-box)
+
+html
+	font-size 100%
+	-ms-text-size-adjust 100%
+	-webkit-text-size-adjust 100%
+	-webkit-font-smoothing antialiased
+	-moz-osx-font-smoothing grayscale
+	-moz-text-rendering optimizelegibility
+	-webkit-text-rendering optimizelegibility
+	text-rendering optimizelegibility
+
+body:before
+	content ''
+	height 100%
+	float left
+	width 0
+	margin-top -32767px
+
+summary
+main
+	display block
+
+audio
+canvas
+progress
+video
+	display inline-block
+
+audio:not([controls])
+	display none
+	height 0
+
+a
+	background-color transparent
+
+a
+a *
+	cursor pointer
+
+a:active
+a:hover
+	outline 0
+
+a img
+	border 0 none
+
+[hidden]
+template
+  display none
+
+mark
+	color inherit
+	background-color inherit
+
+ruby
+rt
+	text-indent 0
+
+ruby > rt
+	line-height normal
+	display block
+	text-align center
+	-webkit-text-emphasis none
+
+hr
+	display block
+	height 0
+	margin 0
+	border 0 none
+	box-sizing(content-box)
+
+td
+th
+	padding 0
+	vertical-align top
+
+img
+	border 0
+
+svg:not(:root)
+	overflow hidden
